@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	
+	
+	<div class="admission">
+		<div class="header-up">
+			<div class="logo">
+				<img src="image/logo.png" alt="" />
+			</div>
+			<div class="middle">
+				<h1>admission form</h1>
+				<h2>Bashikpur School And College</h2>
+				<p> Bashikpur, sadar, Lakshmipur</p>
+				<p class="pe"> School Admission form</p>
+			</div>
+
+			<form action="" method="post" enctype="multipart/form-data">
+			<div class="picture">
+				<p>Your passport size </br> <span>PICTURE</span></p>
+				<input type="file" name="picture"/>
+			</div>
+			
+		</div>
+		<hr />
+		
+		
+		<!-- header page ended -->
+		
+		
+		<div class="student-details">
+			
+				<table>
+					<tr>
+						<td class="naim"><label for="">Student Name :</label></td>
+						<td><input type="text" name="student_name" required/></td>
+					</tr>
+					<tr>
+						<td><label for="">Father Name :</label></td>
+						<td><input type="text" name="father_name" required/></td>
+					</tr>
+					<tr>
+						<td><label for="">Father's Occupation :</label></td>
+						<td><input type="text" name="Father's_occupation" required/></td>
+					</tr>
+					<tr>
+						<td><label for="">Mother Name :</label></td>
+						<td><input type="text" name="mother_name" required/></td>
+					</tr>
+					<tr>
+						<td><label for="">Mother's Occupation :</label></td>
+						<td><input type="text" name="mothers's_occupation" required/></td>
+					</tr>
+				</table>
+			
+			
+			
+					<div class="birth-gender">
+						<div class="birth">
+							<table> 
+								<tr> 
+								<td>  
+									<label for="" style="width: 48%;">Date of Birth :</label>
+								</td>
+								<td class="date" style="width: 52%;"><input type="date" name="date-of-birth"/></td>
+								</tr>
+							</table>
+						</div>
+						
+						<div class="gender">
+							<label for="">Gender :</label>
+							<input type="radio" id="ami" name="male"/>
+							<label for="ami">Male</label>
+							<input type="radio" id="tumi"name="male"/>
+							<label for="tumi">Female</label></td>
+							<input type="radio" id="love" name="male"/>
+							<label for="love">Others</label>
+						</div>
+					</div>	
+			
+			
+			
+			<div class="select">
+				<p>Willing to be Admitted :</p>
+				<select name="" id="">
+					<option value="">CLASS</option>
+					<option value="">Six</option>
+					<option value="">Seven</option>
+					<option value="">Eight</option>
+					<option value="">Nine</option>
+					<option value="">Ten</option>
+					<option value="">Eleven</option>
+					<option value="">twelve</option>
+				</select>
+			</div>
+			
+			
+			
+			<fieldset>
+				<legend>Present-Addres:</legend>
+					<table>
+						<tr>
+							<td class="present-addres"><label for="">Division :</label></td>
+							<td><input type="text" name="division"/></td>
+						</tr>
+						<tr>
+							<td class="present-addres"><label for="">Distric :</label></td>
+							<td><input type="text" name="distric"/></td>
+						</tr>
+						<tr>
+							<td class="present-addres"><label for=""> village :</label></td>
+							<td><input type="text" name="village1"/></td>
+						</tr>
+						<tr>
+							<td class="present-addres"><label for="">Addres :</label></td>
+							<td><textarea name="w3review" rows="4" cols="50"></textarea></td>
+						</tr>
+						
+					</table>
+			</fieldset>
+			
+			
+			<fieldset>
+				<legend>Parmanent-Addres:</legend>
+					<table>
+						<tr>
+							<td class="present-addres"><label for="">Division :</label></td>
+							<td><input type="text" name="division2"/></td>
+						</tr>
+						<tr>
+							<td class="present-addres"><label for="">Distric :</label></td>
+							<td><input type="text" name="parmanent-distric"/></td>
+						</tr>
+						<tr>
+							<td class="present-addres"><label for=""> village :</label></td>
+							<td><input type="text" name="village2"/></td>
+						</tr>
+						<tr>
+							<td class="present-addres"><label for="">Addres :</label></td>
+							<td><textarea name="w3review" rows="4" cols="50"></textarea></td>
+						</tr>
+						
+					</table>
+			</fieldset>
+			
+			
+			<!-- others information -->
+			
+			
+			<div class="others-information">
+					<table>
+						<tr>
+							<td class="rel"><label for="">Relagion :</label></td>
+							<td><input type="text" name="relagion" value="Islam"/></td>
+							<td class="rel"><label for="">nationality :</label></td>
+							<td><input type="text" name="nationality" value="Bangladesh" /></td>
+						</tr>
+						<tr>
+							<td class="rel"><label for="">Phone Number :</label></td>
+							<td><input type="number" name="number" value="+880" /></td>
+							<td class="rel"><label for="">Email-Addres :</label></td>
+							<td><input type="email" name="email" /></td>
+						</tr>
+						<tr>
+							<td class="rel"><label for="">NID Number :</label></td>
+							<td><input type="number" name="nid" /></td>
+							<td class="rel"><label for="">Blood group :</label></td>
+							<td><input type="text" name="blood" /></td>
+						</tr>
+						<tr>
+							<td class="rel"><label for="">Status :</label></td>		
+							<td>
+								<label for="hi">Single</label>
+								<input id="hi"type="radio" name="single" />
+								<label for="hlw">Married</label>
+								<input id="hlw"type="radio" name="single" />
+							</td>
+						</tr>
+					</table>
+			</div>
+			
+				<input type="submit" value="submit" />
+			
+		</div>
+		
+		
+		
+		<div class="footer">
+               <div class="last-inpo">
+                    <input type="text" name="student-signature" />
+                    <input type="text" name="Athorized-signature" value="Tahmid Rafi" readonly />
+               </div>
+               <div class="last-label">
+                    <td><label for="">Student signature </label></td>
+                    <td><label id="doro" for="">Athorized signature </label></td>
+               </div>
+		</div>
+	
+	</form>
+	</div>
+                                             <!-- Creating Md.Naime -->         
+</body>
+</html>
